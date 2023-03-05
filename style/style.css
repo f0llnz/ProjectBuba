@@ -30,7 +30,7 @@ article{
     width: 95%;
     display: flex;
     height:77%;
-    border-radius: 15px;
+    border-radius: 1rem;
     box-sizing: border-box;
 }
 
@@ -47,13 +47,13 @@ article{
 
 .input{
     display: flex;
-    height: 60px;
+    height: 3.75rem;
     background-color: rgb(243, 89, 202);
-    border-radius: 15px;
+    border-radius: 1rem;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     align-items: center;
-    padding-left: 15px;
+    padding-left: 1rem;
     box-sizing: border-box;
     width: 100%;
     justify-content: space-between;
@@ -67,36 +67,36 @@ article{
     width: 85%;
     border-radius: 5px;
     border-style: none;
-    padding: 10px;
-    font-size: 18px;
+    padding: 0.625rem;
+    font-size: 1.1rem;
     background-color: white;
 }
 
 .buttons{
     display: flex;
-    height: 50px;
-    padding-right: 20px;
+    height: 3.125rem;
+    padding-right: 1.25rem;
 }
 
 #add-btn{
-    margin-right: 15px;
-    font-size: 15px;
+    margin-right: 1rem;
+    font-size: 1rem;
     box-sizing: border-box;
     background-color:rgb(54, 4, 100);
     color: white;
     border-style: none;
-    border-radius: 15px;
+    border-radius: 1rem;
     width: 5rem;
     cursor: pointer;
 }
 
 #remove-btn{
-    font-size: 15px;
+    font-size: 1rem;
     box-sizing: border-box;
     background-color:rgb(54, 4, 100);
     color: white;
     border-style: none;
-    border-radius: 15px;
+    border-radius: 1rem;
     width: 7.5rem;
     cursor: pointer;
 }
@@ -110,14 +110,14 @@ article{
 }
 
 .rowheight{
-    height: 40px;
+    height: 2.5rem;
 }
 
 .score{
-    height: 40px;
+    height: 2.5rem;
     background-color:rgb(243, 89, 202);
     border-style: none;
-    padding: 15px;
+    padding: 1rem;
     font-weight: 700;
     border-radius: 7px;
     text-decoration: none;
@@ -125,10 +125,10 @@ article{
 }
 
 #average{
-    height: 40px;
+    height: 2.5rem;
     background-color: rgb(243, 89, 202);
     border-style: none;
-    padding: 15px;
+    padding: 1rem;
     text-align: center;
     font-weight: 700;
     border-radius: 7px;
@@ -146,7 +146,7 @@ input:focus {
 .name{
     width: 10rem;
     font-size: 1.1rem;
-    padding-left: 10px;
+    padding-left: 0.625rem;
     box-sizing: border-box;
     background-color: rgb(170, 31, 195);
     border-radius: 5px;
@@ -156,14 +156,14 @@ input:focus {
 .namee{
     width: 10rem;
     font-size: 1.1rem;
-    padding-left: 10px;
+    padding-left: 0.625rem;
     box-sizing: border-box;
     font-weight: 600;
 }
 
 .average{
-    width: 80px;
-    padding-left: 35px;
+    width: 5rem;
+    padding-left: 2.188rem;
     box-sizing: border-box;
 }
 
@@ -178,19 +178,19 @@ input:focus {
     font-size: 2rem;
     color: rgb(4, 2, 2);
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 ul{
     list-style: none;
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 2rem;
 }
 
 li{
-    padding-top: 15px;
+    padding-top: 1rem;
     font-size: 1.4rem;
     color: rgb(0, 0, 0);
     text-decoration: none;
